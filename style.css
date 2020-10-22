@@ -48,3 +48,17 @@ body
     border: 3px solid #e9e5d5;
     background: linear-gradient(to bottom, #111936, #285A7B);
 }
+.sea
+{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    background: repeating-radial-gradient(ellipse farthest-corner at center -400%, #f5c30e 30%, #518eac 90%) repeat scroll 0 0 #518eac;
+    z-index: 2;
+    transition: background 2s ease;
+}
+.night .sea
+{
+    background: repeating-radial-gradient(ellipse farthest-corner at center -400%, #7fa1bb 30%, #1d425a 90%) repeat scroll 0 0 #1d425a;
+}
