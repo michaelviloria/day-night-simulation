@@ -28,3 +28,23 @@ body
 {
     background: #080d17;
 }
+.container-animation
+{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid #555;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #BE4405, #F6C60C);
+    transition: all 2s ease;
+}
+.night .container-animation
+{
+    border: 3px solid #e9e5d5;
+    background: linear-gradient(to bottom, #111936, #285A7B);
+}
