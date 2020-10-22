@@ -124,3 +124,72 @@ body
     height: 20%;
     box-shadow: inset 4px -2px 0 0px #535457;
 }
+.stars div:nth-child(n)
+{
+    background: white;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 1px rgba(255,255,255,1);
+    transition: 2s ease;
+}
+.stars div:nth-child(1)
+{
+    top: -10%;
+    left: 100%;
+}
+.night .stars div:nth-child(1)
+{
+    top: 10%;
+    left: 30%;
+}
+.stars div:nth-child(2)
+{
+    top: -10%;
+    right: 0;
+}
+.night .stars div:nth-child(2)
+{
+    top: 10%;
+    right: 30%;
+}
+.stars div:nth-child(3)
+{
+    top: -10%;
+    left: 100%;
+}
+.night .stars div:nth-child(3)
+{
+    top: 40%;
+    left: 13%;
+}
+.stars div:nth-child(4)
+{
+    top: -10%;
+    right: 0;
+}
+.night .stars div:nth-child(4)
+{
+    top: 60%;
+    right: 20%;
+}
+.stars div:nth-child(5)
+{
+    top: -10%;
+    right: 0;
+}
+.night .stars div:nth-child(5)
+{
+    top: 30%;
+    right: 60%;
+}
+.stars div:nth-child(6)
+{
+    top: -10%;
+    right: 0;
+}
+.night .stars div:nth-child(6)
+{
+    top: 60%;
+    right: 50%;
+}
