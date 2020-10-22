@@ -62,3 +62,18 @@ body
 {
     background: repeating-radial-gradient(ellipse farthest-corner at center -400%, #7fa1bb 30%, #1d425a 90%) repeat scroll 0 0 #1d425a;
 }
+.sun
+{
+    width: 30%;
+    height: 30%;
+    background: #F2EF88;
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    z-index: 1;
+    transition: 2s ease;
+}
+.night .sun
+{
+    top: 100%;
+}
